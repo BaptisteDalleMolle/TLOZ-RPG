@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="reset.css"/>
+        <link rel="stylesheet" href="character.css"/>
+        <script type="text/javascript" src="character.js"></script>
+        <title>Personnage</title>
+    </head>
+
+    <body>
+        <header id="top-frame">
+
+            <p id="char-name">Lucio</p>
+            
+
+            <div class="top-frame-container" id="bar-box-container">
+
+                <div class="top-box" id="lvl-box">
+                    <p id="lvl-val">1</p>
+                </div>
+                
+                <div class="top-box" id="pv-box">
+                    <p id="pv-val">40</p>
+                </div>
+    
+                <div class="top-box" id="endu-box">
+                    <p id="endu-val">50</p>
+                </div>
+    
+                <div class="top-box" id="mana-box">
+                    <p id="mana-val">25</p>
+                </div>
+    
+                <div class="top-box" id="rig-box">
+                    <p id="rig-val">25</p>
+                </div>
+    
+                <div class="top-box" id="crg-box">
+                    <p id="crg-val">25</p>
+                </div>    
+            </div>
+            
+        </header>
+
+        <main>
+
+            <aside class="frame" id="left-frame">
+
+                <nav id="menu">
+
+                </nav>
+
+            </aside>
+
+            <aside class="frame" id="right-frame">
+            </aside>
+    
+            <div id="content">
+                
+                <table class="table" id="tab-attr-val">
+                    <tbody>
+                        <tr>
+                            <td class="tab-label" id="tab-label-FOR">FOR</td>
+                            <td class="tab-label" id="tab-label-DEX">DEX</td>
+                            <td class="tab-label" id="tab-label-ARC">ARC</td>
+                            <td class="tab-label" id="tab-label-ADR">ADR</td>
+                            <td class="tab-label" id="tab-label-PRE">PRE</td>
+                            <td class="tab-label" id="tab-label-LUCI">LUCI</td>
+                            <td class="tab-label" id="tab-label-PAR">PAR</td>
+                            <td class="tab-label" id="tab-label-AGI">AGI</td>
+                            <td class="tab-label" id="tab-label-VIT">VIT</td>
+                            <td class="tab-label" id="tab-label-FUR">FUR</td>
+                            <td class="tab-label" id="tab-label-RFLX">RFLX</td>
+                        </tr>
+                        <tr>
+                            <td class="tab-value" id="tab-value-FOR">0</td>
+                            <td class="tab-value" id="tab-value-DEX">0</td>
+                            <td class="tab-value" id="tab-value-ARC">0</td>
+                            <td class="tab-value" id="tab-value-ADR">0</td>
+                            <td class="tab-value" id="tab-value-PRE">0</td>
+                            <td class="tab-value" id="tab-value-LUCI">0</td>
+                            <td class="tab-value" id="tab-value-PAR">0</td>
+                            <td class="tab-value" id="tab-value-AGI">0</td>
+                            <td class="tab-value" id="tab-value-VIT">0</td>
+                            <td class="tab-value" id="tab-value-FUR">0</td>
+                            <td class="tab-value" id="tab-value-RFLX">0</td>    
+                        </tr>
+                        <tr>
+                            <td class="tab-label" id="tab-label-FOR">INT</td>
+                            <td class="tab-label" id="tab-label-CMDT">CMDT</td>
+                            <td class="tab-label" id="tab-label-ELQ">ELQ</td>
+                            <td class="tab-label" id="tab-label-MUS">MUS</td>
+                            <td class="tab-label" id="tab-label-ENCH">ENCH</td>
+                            <td class="tab-label" id="tab-label-ART">ART</td>
+                            <td class="tab-label" id="tab-label-CUI">CUI</td>
+                            <td class="tab-label" id="tab-label-CONN">CONN</td>
+                            <td class="tab-label" id="tab-label-REP">REP</td>
+                            <td class="tab-label" id="tab-label-SURV">SURV</td>
+                            <td class="tab-label" id="tab-label-CHAN">CHAN</td>
+                        </tr>
+                        <tr>
+                            <td class="tab-value" id="tab-value-INT">0</td>
+                            <td class="tab-value" id="tab-value-CMDT">0</td>
+                            <td class="tab-value" id="tab-value-ELQ">0</td>
+                            <td class="tab-value" id="tab-value-MUS">0</td>
+                            <td class="tab-value" id="tab-value-ENCH">0</td>
+                            <td class="tab-value" id="tab-value-ART">0</td>
+                            <td class="tab-value" id="tab-value-CUI">0</td>
+                            <td class="tab-value" id="tab-value-CONN">0</td>
+                            <td class="tab-value" id="tab-value-REP">0</td>
+                            <td class="tab-value" id="tab-value-SURV">0</td>
+                            <td class="tab-value" id="tab-value-CHAN">0</td>
+                        </tr>
+                    </tbody>
+                </table> 
+    
+                <table class="table" id="tab-attr-bar-lvl">
+    
+                    <tbody>
+                        <tr>
+                            <td class="tab-label" id="tab-label-VIE">Vie</td>
+                            <td class="tab-label" id="tab-label-ENDU">Endurance</td>
+                            <td class="tab-label" id="tab-label-MANA">Mana</td>
+                            <td class="tab-label" id="tab-label-RIG">Rigueur</td>
+                            <td class="tab-label" id="tab-label-CRG">Courage</td>
+                        </tr>
+                        <tr>
+                            <td><input type="number" class="tab-input" id="tab-input-VIE" value=0></input></td>
+                            <td><input type="number" class="tab-input" id="tab-input-ENDU" value=0></input></td>
+                            <td><input type="number" class="tab-input" id="tab-input-MANA" value=0></input></td>
+                            <td><input type="number" class="tab-input" id="tab-input-RIG" value=0></input></td>
+                            <td><input type="number" class="tab-input" id="tab-input-CRG" value=0></input></td>
+                        </tr>
+                    </tbody>    
+    
+                </table>
+    
+                <table class="table" id="tab-attr-lvl">
+    
+                    <tbody>
+                        <tr>
+                            <td class="tab-label" id="tab-label-FOR">Force</td>
+                            <td><input type="number" class="tab-input" id="tab-input-FOR" value=0></td>
+                            <td colspan="4" class="tab-head">Attributs</td>
+                            <td class="tab-label" id="tab-label-DEX">Dextérité</td>
+                            <td><input type="number" class="tab-input" id="tab-input-DEX" value=0></td>
+                        </tr>
+                        <tr>
+                            <td class="tab-label" id="tab-label-PRE">Précision</td>
+                            <td><input type="number" class="tab-input" id="tab-input-PRE" value=0></td>
+                            <td class="tab-label" id="tab-label-LUCI">Lucidité</td>
+                            <td><input type="number" class="tab-input" id="tab-input-LUCI" value=0></td>
+                            <td class="tab-label" id="tab-label-PAR">Parade</td>
+                            <td><input type="number" class="tab-input" id="tab-input-PAR" value=0></td>
+                            <td class="tab-label" id="tab-label-AGI">Agilité</td>
+                            <td><input type="number" class="tab-input" id="tab-input-AGI" value=0></td>
+                        </tr>
+                        <tr>
+                            <td class="tab-label" id="tab-label-VIT">Vitesse</td>
+                            <td><input type="number" class="tab-input" id="tab-input-VIT" value=0></td>
+                            <td class="tab-label" id="tab-label-FUR">Furtivité</td>
+                            <td><input type="number" class="tab-input" id="tab-input-FUR" value=0></td>
+                            <td class="tab-label" id="tab-label-RFLX">Réflexe</td>
+                            <td><input type="number" class="tab-input" id="tab-input-RFLX" value=0></td>
+                            <td class="tab-label" id="tab-label-INT">Intimidation</td>
+                            <td><input type="number" class="tab-input" id="tab-input-INT" value=0></td>
+                        </tr>
+                        <tr>
+                            <td class="tab-label" id="tab-label-CMDT">Commandement</td>
+                            <td><input type="number" class="tab-input" id="tab-input-CMDT" value=0></td>
+                            <td class="tab-label" id="tab-label-ELQ">Eloquence</td>
+                            <td><input type="number" class="tab-input" id="tab-input-ELQ" value=0></td>
+                            <td class="tab-label" id="tab-label-MUS">Musicien</td>
+                            <td><input type="number" class="tab-input" id="tab-input-MUS" value=0></td>
+                            <td class="tab-label" id="tab-label-ENCH">Enchantement</td>
+                            <td><input type="number" class="tab-input" id="tab-input-ENCH" value=0></td>
+                        </tr>
+                        <tr>
+                            <td class="tab-label" id="tab-label-ART">Artisanat</td>
+                            <td><input type="number" class="tab-input" id="tab-input-ART" value=0></td>
+                            <td class="tab-label" id="tab-label-CUI">Cuisine</td>
+                            <td><input type="number" class="tab-input" id="tab-input-CUI" value=0></td>
+                            <td class="tab-label" id="tab-label-CONN">Connaissance</td>
+                            <td><input type="number" class="tab-input" id="tab-input-CONN" value=0></td>
+                            <td class="tab-label" id="tab-label-REO">Repérage</td>
+                            <td><input type="number" class="tab-input" id="tab-input-REP" value=0></td>
+                        </tr>
+                        <tr>
+                            <td class="tab-label" id="tab-label-SURV">Survivaliste</td>
+                            <td><input type="number" class="tab-input" id="tab-input-SURV" value=0></td>
+                            <td class="tab-label" id="tab-label-CHAN">Chance</td>
+                            <td><input type="number" class="tab-input" id="tab-input-CHAN" value=0></td>
+                            <td class="tab-label" id="tab-label-ARC">Arcane</td>
+                            <td><input type="number" class="tab-input" id="tab-input-ARC" value=0></td>
+                            <td class="tab-label" id="tab-label-ADR">Adresse</td>
+                            <td><input type="number" class="tab-input" id="tab-input-ADR" value=0></td>
+                        </tr>
+                    </tbody>
+                </table> 
+
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates, distinctio incidunt. Sunt tempora eligendi blanditiis dolore ea labore mollitia illum odio, corporis alias aut modi molestiae quis voluptates quibusdam, adipisci et commodi odit qui? Optio ullam minus expedita excepturi, itaque quia reiciendis, aperiam libero commodi, distinctio aliquam adipisci officiis exercitationem nam eligendi? Aperiam doloremque, alias nobis impedit illo veritatis libero. Vero nobis, odit magnam molestias voluptatibus ab ad praesentium vitae qui perspiciatis itaque rem aspernatur voluptatum nemo minima reprehenderit enim blanditiis libero autem aliquid et accusantium! Quasi ad cum iure exercitationem quo amet alias inventore et, ullam est totam repellendus recusandae quia asperiores dolore ratione libero, quae esse dolorem. Fugit debitis soluta suscipit commodi? Perspiciatis, quasi beatae dolorem odio placeat, deleniti eaque facilis delectus ab libero consequuntur a hic laborum architecto similique est accusamus eveniet voluptates at cupiditate nisi laudantium! Deleniti asperiores iste dolor nobis aperiam ea excepturi iure tenetur laboriosam quis, nostrum nisi eveniet dolores explicabo voluptatum. Quasi fugit harum perspiciatis magni accusamus doloribus, labore quisquam fugiat, porro nesciunt recusandae? Laborum et cumque eveniet vitae suscipit culpa! Quia dolores voluptatum placeat laudantium facilis et alias magni, accusantium ut. Esse obcaecati aliquid amet animi temporibus fugit dolores tempore consectetur harum repellendus. Laboriosam distinctio recusandae tempora quod modi architecto cupiditate soluta ducimus eaque corrupti, repellat quas, alias accusantium dolorum exercitationem et deleniti consequatur dolorem. Accusamus esse exercitationem a porro ipsam labore optio. A vel nostrum unde numquam autem ducimus in dolores eum, velit ea, iste nam. Facilis laborum amet sunt quidem soluta odit sequi quas. Repellat libero blanditiis autem recusandae vel soluta dolorem, maxime distinctio quas totam accusantium praesentium porro eum culpa iste saepe fugit aspernatur fugiat deleniti expedita magnam in dolor. Ea, iure consectetur obcaecati eum assumenda dolore natus totam? Reprehenderit atque quos magnam ex veritatis dolorem nesciunt quisquam quis minima perspiciatis mollitia, eaque enim nulla doloribus aliquam officia vel cum molestias? Hic voluptatum quasi, corporis architecto nemo tenetur totam quod autem! Explicabo voluptatibus accusamus quis voluptatum repellat facere iusto est ducimus officiis, animi cumque aspernatur assumenda nam modi eligendi maxime saepe aut doloremque aperiam ut quos consequuntur. Similique consectetur suscipit hic impedit, dicta culpa illo adipisci, ipsam sed veniam nostrum laboriosam ea eveniet id cumque tempore mollitia a repellendus repellat debitis iste placeat necessitatibus asperiores! Sapiente expedita asperiores quaerat alias nemo impedit, laudantium similique? Quis nobis ipsa impedit aliquam nihil, expedita architecto inventore iusto sed illo corporis consectetur, quae doloribus aliquid aperiam iure aut perspiciatis, vitae similique quam. Reiciendis ex itaque, minus fugiat tempore cumque, libero inventore reprehenderit vel vitae iure incidunt sequi expedita magnam quae, nemo delectus officiis quibusdam cum deleniti. Nobis, ipsa quis provident quia deleniti perferendis quod, magnam non accusamus ducimus quam error rerum? Itaque impedit perspiciatis et laudantium nihil suscipit ipsam obcaecati cupiditate officia at facere, sit nisi porro numquam. Unde nulla, odio aperiam harum omnis tempora dignissimos iusto. Temporibus repellendus beatae quibusdam, fuga corporis ratione vero modi iste, ipsum dolorem dignissimos placeat odio laborum impedit! Beatae quae repellat repellendus in omnis cupiditate quos numquam possimus nostrum molestias vel rerum consectetur, culpa obcaecati aut provident voluptatem hic quasi dolorem laboriosam? Nesciunt vitae, laudantium voluptates minus quaerat quis similique debitis. Optio ducimus, odit incidunt eligendi minus voluptas sint laborum tempora velit cum sed magni quo labore dolorum vero voluptate qui. Esse fugit qui molestias neque quis rerum numquam quo, illo similique reiciendis aut officia mollitia temporibus facere magni blanditiis. Doloribus laborum voluptatum neque? Itaque omnis hic at atque aspernatur sint quia fugit, natus optio rem voluptatibus deleniti, cum ex cumque ea quidem unde quas dolorem doloremque dolore quaerat? Animi rem optio, magnam sed quaerat perspiciatis distinctio? Accusantium deserunt accusamus, distinctio, quisquam dolor eius sint repellendus ex neque amet quae? Quam maxime enim perspiciatis, veniam accusamus animi ipsa molestiae cum iusto, delectus nobis tempora vero amet reiciendis, officia voluptates nesciunt dolorem quibusdam pariatur possimus! Aut, odio soluta alias ex eligendi doloremque? Deserunt doloribus, labore commodi atque voluptas, eum ducimus ipsum dolore dolores vel officia rem aliquam? Nemo mollitia deleniti voluptatibus, et numquam nostrum perferendis, beatae voluptatum repellendus iste similique provident accusamus voluptate, voluptas reprehenderit earum fugiat quisquam quaerat veritatis maxime vero possimus. Veritatis cum excepturi aut repellat at eum libero, autem accusamus et, enim consequatur laboriosam dicta dolore impedit natus sed provident blanditiis quibusdam suscipit voluptates rerum. Quaerat, sed enim nobis quam ab numquam quod sequi voluptas itaque deleniti debitis, facere libero quae aut laboriosam magni et rem placeat harum saepe expedita temporibus neque! Earum nulla similique illo quasi consectetur sunt sapiente, dolor magnam veniam modi error. Similique id distinctio maiores, vitae incidunt totam nam magnam quaerat recusandae corrupti ratione, laudantium ipsam animi cumque obcaecati quasi ducimus perferendis? Molestiae in error culpa. Cumque, facere voluptas sapiente quaerat consequatur commodi, eveniet officiis at, iure sit saepe non rem quam earum molestias quas eaque ullam fugit rerum sint et.
+
+            </div> 
+
+        </main>   
+    </body>
+</html>
